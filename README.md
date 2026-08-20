@@ -70,16 +70,15 @@ documento HTML, CSS, JavaScript, imágenes, fuentes u otros.
 
 Complete la tabla:
 https://www.itm.edu.co/formatos-institucionales/
-  Recurso                     Tipo            Dominio              Tamaño
-  ---------                  ------          ---------            --------
-  /u-catedras.png              png            itm.edu.co         (disk cache)  
-  
-/formatos-institucionales/   Document         itm.edu.co           93.3 kB                      
-/gtm.js?id=GTM-T3PQ5L7       Script     googletagmanager.com    (disk cache)
+  Recurso                     Tipo            Dominio              Tamaño  
+  ---------                  ------          ---------            --------  
+  /u-catedras.png              png            itm.edu.co         (disk cache)   
+/formatos-institucionales/   Document         itm.edu.co           93.3 kB                       
+/gtm.js?id=GTM-T3PQ5L7       Script     googletagmanager.com    (disk cache)  
 
-/m=el_main_css              Stylesheet        gstatic.com       (disk cache)
+/m=el_main_css              Stylesheet        gstatic.com       (disk cache)  
 
-/01-Programas.gif             Gif             itm.edu.co        (disk cache)
+/01-Programas.gif             Gif             itm.edu.co        (disk cache)  
                                         
 
 **Total de solicitudes observadas:** `136`
