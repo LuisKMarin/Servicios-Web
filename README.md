@@ -72,7 +72,7 @@ Complete la tabla:
 https://www.itm.edu.co/formatos-institucionales/
   Recurso                     Tipo            Dominio              Tamaño
   ---------                  ------          ---------            -------- 
-  /u-catedras.png        |     png     |      itm.edu.co    |     (disk cache <br>  
+  /u-catedras.png        |     png     |      itm.edu.co    |     (disk cache) <br>  
 /formatos-institucionales/ |  Document  |       itm.edu.co   |        93.3 kB    <br>                   
 /gtm.js?id=GTM-T3PQ5L7   |    Script   |  googletagmanager.com  |  (disk cache)  <br>
 
