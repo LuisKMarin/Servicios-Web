@@ -236,12 +236,12 @@ Observe si aparece una nueva solicitud en Network.
 
   Elemento                       Resultado
   ------------------------------ -----------
-  Acción realizada               
-  ¿Generó una nueva solicitud?   
-  URL solicitada                 
-  Método HTTP                    
-  Código de estado               
-  Tipo de respuesta              
+  Acción realizada: Le dia al boton descargar debajo del titulo Logos ITM  <br>        
+  ¿Generó una nueva solicitud?:   Si, genero 2 nuevas respuestas  <br>
+  URL solicitada: https://www.google-analytics.com/g/collect?v=2&tid=G-  <br>MDYJ1KCN8R&gtm=...  <br>                
+  Método HTTP: POST  <br>                  
+  Código de estado: 204 No Content   <br>            
+  Tipo de respuesta: text/plain   <br>           
 
 ## Ciclo de interacción
 
@@ -268,9 +268,9 @@ evidencias/interaccion.png
 
 Inclúyala aquí:
 
-``` markdown
+markdown
 ![Interacción observada en Network](evidencias/interaccion.png)
-```
+
 
 ### Análisis
 
