@@ -103,7 +103,7 @@ markdown
 
 > Escriba aquí su respuesta.
 
-------------------------------------------------------------------------
+Una sola URL genera múltiples solicitudes HTTP porque la página web principal necesita descargar archivos extras como: imágenes, estilos, códigos, etc, esto con el fin de que la pagina se vea completa.
 
 # 3. Análisis de una solicitud HTTP
 
@@ -114,12 +114,12 @@ Identifique la información solicitada a continuación.
 
   Elemento              Resultado
   --------------------- -----------
-  URL                   
-  Método HTTP           
-  Código de estado      
-  Host / dominio        
-  Tipo de recurso       
-  Tiempo de respuesta   
+  URL: https://www.itm.edu.co/formatos-institucionales/   <br>                 
+  Método HTTP: GET <br>          
+  Código de estado: 200 OK  <br>   
+  Host / dominio:  www.itm.edu.co    <br>  
+  Tipo de recurso:  text/html  <br>     
+  Tiempo de respuesta: 768.59 ms <br>  
 
 ## Flujo que se está observando
 
@@ -141,22 +141,21 @@ evidencias/request.png
 
 Inclúyala en el informe:
 
-``` markdown
-![Análisis de la solicitud HTTP](evidencias/request.png)
-```
+markdown
+![Análisis de la solicitud HTTP](Evidencias/request.png)
+
 
 ### Análisis
 
 **¿Qué recurso solicitó el navegador?**
 
-> Escriba aquí su respuesta.
+> Escriba aquí su respuesta: Solicitó el documento HTML correspondiente a la página web institucional "/formatos-institucionales/"
 
 **¿Qué información permite determinar si la solicitud fue atendida
 correctamente?**
 
-> Escriba aquí su respuesta.
+> Escriba aquí su respuesta: El código de estado HTTP 200 OK indica que la solicitud fue procesada con éxito por el servidor y que entregó el contenido solicitado.
 
-------------------------------------------------------------------------
 
 # 4. Inspección del DOM
 
@@ -179,13 +178,13 @@ Utilizando **Elementos / Elements**:
 
 ## Resultados
 
-**Elemento seleccionado:** `____________________________`
+**Elemento seleccionado:** `El boton descargar que esta debajo del texto 'Logos ITM'`  <br>
 
-**Etiqueta HTML:** `____________________________`
+**Etiqueta HTML:** `<a>`  <br>
 
-**Contenido original:** `____________________________`
+**Contenido original:** `Descargar`  <br>
 
-**Modificación realizada:** `____________________________`
+**Modificación realizada:** `Se edito el texto que decía 'Descargar' por el texto 'Modificacion'`  <br>
 
 El proceso observado puede representarse conceptualmente así:
 
@@ -207,18 +206,16 @@ evidencias/dom.png
 
 Inclúyala aquí:
 
-``` markdown
-![Inspección y modificación del DOM](evidencias/dom.png)
-```
+markdown
+![Inspección y modificación del DOM](Evidencias/dom.png)
+
 
 ### Análisis
 
 **¿La modificación realizada sobre el DOM alteró permanentemente la
 aplicación o los archivos almacenados en el servidor? Justifique.**
 
-> Escriba aquí su respuesta.
-
-------------------------------------------------------------------------
+> Escriba aquí su respuesta: No, la modificacion realizada no es permanente, lo que se esta modificando es una copia del DOM que el servidor nos envia a nuestro navegador, esta modificación solo se guarda temporalmente en nuestro cliente local y no tiene ninguna repercusión en el DOM real del servidor.
 
 # 5. Análisis de una interacción dinámica
 
