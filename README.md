@@ -317,17 +317,19 @@ Clasifique sus hallazgos:
 
 ## Elementos observados directamente
 
-Las solicitudes HTTP con su URL, el método GET y el código de estado 200 OK en la pestaña Network.
+Las solicitudes HTTP con su URL, el método GET y el código de estado 200 OK en la pestaña Network.  
 
-La estructura de la página en la pestaña Elements y cómo cambia el texto en la pantalla al editarlo.
+La estructura de la página en la pestaña Elements y cómo cambia el texto en la pantalla al editarlo.  
 
-Los tiempos de carga de la petición se encuentran en la pestaña Timing.
+Los tiempos de carga de la petición se encuentran en la pestaña Timing.  
 
 ## Elementos inferidos
 
-El funcionamiento interno del servidor donde está alojada la página web.
-Lo que hace el servidor por dentro para procesar la página y buscar los archivos. 
-Las bases de datos que utiliza la universidad para guardar la información. 
+El funcionamiento interno del servidor donde está alojada la página web.  
+
+Lo que hace el servidor por dentro para procesar la página y buscar los archivos.  
+
+Las bases de datos que utiliza la universidad para guardar la información.  
 
 > No presente como observado un proceso interno que las herramientas del
 > navegador no permitan comprobar directamente.
