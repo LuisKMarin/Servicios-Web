@@ -269,7 +269,7 @@ evidencias/interaccion.png
 Inclúyala aquí:
 
 markdown
-![Interacción observada en Network](evidencias/interaccion.png)
+![Interacción observada en Network](Evidencias/interaccion.png)
 
 
 ### Análisis
@@ -277,9 +277,7 @@ markdown
 **Explique la relación entre la acción realizada por el usuario y la
 solicitud observada.**
 
-> Escriba aquí su respuesta.
-
-------------------------------------------------------------------------
+> Escriba aquí su respuesta: Básicamente, cuando hacemos clic en un botón o interactuamos con la página, el navegador no tiene esa información que estamos solicitando ahi guardada, así que se genera una solicitud HTTP para pedírsela al servidor. La petición que vemos en Network es simplemente el navegador procesando y enviando esa orden que acabamos de dar en la pantalla.
 
 # 6. Reconstrucción del flujo observado
 
@@ -297,8 +295,15 @@ El diagrama deberá incluir, cuando corresponda:
 Reemplace el siguiente bloque con su diagrama:
 
 ``` mermaid
-flowchart LR
-    A[Construya aquí] --> B[su flujo observado]
+ flowchart LR
+    U[Usuario] -->|clic en la página| I[Interfaz]
+    I -->|ejecuta acción| JS[JavaScript]
+    JS -->|prepara petición| N[Navegador]
+    N -->|Solicitud HTTP| S[Servidor]
+    S -->|Respuesta HTTP| N
+    N -->|actualiza estructura| D[DOM]
+    D -->|muestra cambios| I
+    I --> U
 ```
 
 ------------------------------------------------------------------------
@@ -312,15 +317,17 @@ Clasifique sus hallazgos:
 
 ## Elementos observados directamente
 
--   
--   
--   
+Las solicitudes HTTP con su URL, el método GET y el código de estado 200 OK en la pestaña Network.
+
+La estructura de la página en la pestaña Elements y cómo cambia el texto en la pantalla al editarlo.
+
+Los tiempos de carga de la petición se encuentran en la pestaña Timing.
 
 ## Elementos inferidos
 
--   
--   
--   
+El funcionamiento interno del servidor donde está alojada la página web.
+Lo que hace el servidor por dentro para procesar la página y buscar los archivos. 
+Las bases de datos que utiliza la universidad para guardar la información. 
 
 > No presente como observado un proceso interno que las herramientas del
 > navegador no permitan comprobar directamente.
@@ -331,9 +338,9 @@ Clasifique sus hallazgos:
 
 Redacte **tres conclusiones técnicas** derivadas de la práctica.
 
-1.  
-2.  
-3.  
+1.  Sobre la modificación del DOM: Comprobamos que editar el código desde la pestaña Elements solo afecta nuestro cliente local. La evidencia de esto es que al darle recargar a la página, todo vuelve a su estado original, lo que prueba que el navegador solo recibe una copia temporal y que el servidor mantiene los archivos intactos.
+2. Sobre el flujo en Network: Con la prueba del botón de descarga pudimos ver en la pestaña Network cómo cada clic genera una Solicitud HTTP. Esto demuestra que la interfaz no funciona sola, sino que depende totalmente de las respuestas en texto o archivos que nos envía el servidor. 
+3. Sobre la diferencia entre lo visto y lo inferido: Aprendimos que el inspeccionamiento de elementos solo nos muestra la capa del cliente, pero no lo que pasa dentro del servidor. Esto significa que a través del navegador podemos hacer cambios en la estructura visual, pero el procesamiento interno sigue siendo invisible para nosotros.
 
 Las conclusiones deben explicar lo aprendido a partir de la evidencia y
 no limitarse a describir las actividades realizadas.
