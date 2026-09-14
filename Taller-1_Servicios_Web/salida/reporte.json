@@ -1,0 +1,3583 @@
+{
+    "equipo": "EQUIPO-22-APPSWEB",
+    "resumen": {
+        "procesados": 400,
+        "normalizados": 391,
+        "errores_normalizacion": 9,
+        "validos_localmente": 380,
+        "rechazados_localmente": 11,
+        "enviados": 380,
+        "aceptados_api": 190,
+        "rechazados_api": 190,
+        "errores_comunicacion": 0
+    },
+    "consulta_final": {
+        "estado": "exitoso",
+        "codigo_http": 200,
+        "cantidad": 190
+    },
+    "trazabilidad": [
+        {
+            "id": "A-0001",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0002",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0003",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0004",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0005",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0006",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0007",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0008",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0009",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0010",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0011",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0012",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0013",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0014",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0015",
+            "origen": "proveedor_a",
+            "estado_local": "rechazado_localmente",
+            "motivos": [
+                "humedad fuera de rango"
+            ]
+        },
+        {
+            "id": "A-0016",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0017",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0018",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0019",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0020",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0021",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0022",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0023",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0024",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0025",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0026",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0027",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0028",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0029",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0030",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0031",
+            "origen": "proveedor_a",
+            "estado_local": "rechazado_localmente",
+            "motivos": [
+                "latitud fuera de rango"
+            ]
+        },
+        {
+            "id": "A-0032",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0033",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0034",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0035",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0036",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0037",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0038",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0039",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0040",
+            "origen": "proveedor_a",
+            "estado_local": "error_normalizacion",
+            "motivo": "'observed_at'"
+        },
+        {
+            "id": "A-0041",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0042",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0043",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0044",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0045",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0046",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0047",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0048",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0049",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0050",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0051",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0052",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0053",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0054",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0055",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0056",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0057",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0058",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0059",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0060",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0061",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0062",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0063",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0064",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0065",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0066",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0067",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0068",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0069",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0070",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0071",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0072",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0073",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0074",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0075",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0076",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0077",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0078",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0079",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0080",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0081",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0082",
+            "origen": "proveedor_a",
+            "estado_local": "error_normalizacion",
+            "motivo": "could not convert string to float: 'N/A'"
+        },
+        {
+            "id": "A-0083",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0084",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0085",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0086",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0087",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0088",
+            "origen": "proveedor_a",
+            "estado_local": "rechazado_localmente",
+            "motivos": [
+                "viento negativo"
+            ]
+        },
+        {
+            "id": "A-0089",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0090",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0091",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0092",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0093",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0094",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0095",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0096",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0097",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0098",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0099",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0100",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0101",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0102",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0103",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0104",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0105",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0106",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0107",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0108",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0109",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0110",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0111",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0112",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0113",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0114",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0115",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0116",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0117",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0118",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0119",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0120",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0121",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0122",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0123",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0124",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0125",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0126",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0127",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0128",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0129",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0130",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0131",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0132",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0133",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0134",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0135",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0136",
+            "origen": "proveedor_a",
+            "estado_local": "rechazado_localmente",
+            "motivos": [
+                "ciudad vacía"
+            ]
+        },
+        {
+            "id": "A-0137",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0138",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0139",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0140",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0141",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0142",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0143",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0144",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0145",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0146",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0147",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0148",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0149",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0150",
+            "origen": "proveedor_a",
+            "estado_local": "error_normalizacion",
+            "motivo": "'country_code'"
+        },
+        {
+            "id": "A-0151",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0152",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0153",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0154",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0155",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0156",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0157",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0158",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0159",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0160",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0161",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0162",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0163",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0164",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0165",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0166",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0167",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0168",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0169",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0170",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0171",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0172",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0173",
+            "origen": "proveedor_a",
+            "estado_local": "error_normalizacion",
+            "motivo": "float() argument must be a string or a real number, not 'NoneType'"
+        },
+        {
+            "id": "A-0174",
+            "origen": "proveedor_a",
+            "estado_local": "error_normalizacion",
+            "motivo": "Invalid isoformat string: '09-XX-2026 25:61'"
+        },
+        {
+            "id": "A-0175",
+            "origen": "proveedor_a",
+            "estado_local": "rechazado_localmente",
+            "motivos": [
+                "longitud fuera de rango"
+            ]
+        },
+        {
+            "id": "A-0176",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0177",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0178",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0179",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0180",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0181",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0182",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0183",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0184",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0185",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0186",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0187",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0188",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0189",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0190",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0191",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0192",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0193",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0194",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0195",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0196",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0197",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0198",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0199",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "A-0200",
+            "origen": "proveedor_a",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "aceptado",
+                "codigo_http": 201
+            }
+        },
+        {
+            "id": "B-0001",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0002",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0003",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0004",
+            "origen": "proveedor_b",
+            "estado_local": "rechazado_localmente",
+            "motivos": [
+                "humedad fuera de rango"
+            ]
+        },
+        {
+            "id": "B-0005",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0006",
+            "origen": "proveedor_b",
+            "estado_local": "rechazado_localmente",
+            "motivos": [
+                "latitud fuera de rango"
+            ]
+        },
+        {
+            "id": "B-0007",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0008",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0009",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0010",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0011",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0012",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0013",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0014",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0015",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0016",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0017",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0018",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0019",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0020",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0021",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0022",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0023",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0024",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0025",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0026",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0027",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0028",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0029",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0030",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0031",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0032",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0033",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0034",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0035",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0036",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0037",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0038",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0039",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0040",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0041",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0042",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0043",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0044",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0045",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0046",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0047",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0048",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0049",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0050",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0051",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0052",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0053",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0054",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0055",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0056",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0057",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0058",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0059",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0060",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0061",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0062",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0063",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0064",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0065",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0066",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0067",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0068",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0069",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0070",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0071",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0072",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0073",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0074",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0075",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0076",
+            "origen": "proveedor_b",
+            "estado_local": "error_normalizacion",
+            "motivo": "fecha_hora vacía"
+        },
+        {
+            "id": "B-0077",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0078",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0079",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0080",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0081",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0082",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0083",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0084",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0085",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0086",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0087",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0088",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0089",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0090",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0091",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0092",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0093",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0094",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0095",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0096",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0097",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0098",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0099",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0100",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0101",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0102",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0103",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0104",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0105",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0106",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0107",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0108",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0109",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0110",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0111",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0112",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0113",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0114",
+            "origen": "proveedor_b",
+            "estado_local": "error_normalizacion",
+            "motivo": "could not convert string to float: 'error'"
+        },
+        {
+            "id": "B-0115",
+            "origen": "proveedor_b",
+            "estado_local": "rechazado_localmente",
+            "motivos": [
+                "viento negativo"
+            ]
+        },
+        {
+            "id": "B-0116",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0117",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0118",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0119",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0120",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0121",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0122",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0123",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0124",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0125",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0126",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0127",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0128",
+            "origen": "proveedor_b",
+            "estado_local": "rechazado_localmente",
+            "motivos": [
+                "ciudad vacía"
+            ]
+        },
+        {
+            "id": "B-0129",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0130",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0131",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0132",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0133",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0134",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0135",
+            "origen": "proveedor_b",
+            "estado_local": "rechazado_localmente",
+            "motivos": [
+                "pais vacío"
+            ]
+        },
+        {
+            "id": "B-0136",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0137",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0138",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0139",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0140",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0141",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0142",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0143",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0144",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0145",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0146",
+            "origen": "proveedor_b",
+            "estado_local": "error_normalizacion",
+            "motivo": "could not convert string to float: ''"
+        },
+        {
+            "id": "B-0147",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0148",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0149",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0150",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0151",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0152",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0153",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0154",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0155",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0156",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0157",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0158",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0159",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0160",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0161",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0162",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0163",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0164",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0165",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0166",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0167",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0168",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0169",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0170",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0171",
+            "origen": "proveedor_b",
+            "estado_local": "error_normalizacion",
+            "motivo": "time data '31/13/2026 28:75' does not match format '%d/%m/%Y %H:%M'"
+        },
+        {
+            "id": "B-0172",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0173",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0174",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0175",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0176",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0177",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0178",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0179",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0180",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0181",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0182",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0183",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0184",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0185",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0186",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0187",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0188",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0189",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0190",
+            "origen": "proveedor_b",
+            "estado_local": "rechazado_localmente",
+            "motivos": [
+                "longitud fuera de rango"
+            ]
+        },
+        {
+            "id": "B-0191",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0192",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0193",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0194",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0195",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0196",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0197",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0198",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0199",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        },
+        {
+            "id": "B-0200",
+            "origen": "proveedor_b",
+            "estado_local": "valido",
+            "resultado_api": {
+                "estado": "rechazado_api",
+                "codigo_http": 409
+            }
+        }
+    ]
+}
