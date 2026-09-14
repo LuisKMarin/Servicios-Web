@@ -2,11 +2,11 @@
 - Luis Carlos Marín Mayo  
 - Jorge Andrés Carvajal Sepúlveda  
 
-*Análisis de integración de datos entre aplicaciones*
+# Análisis de integración de datos entre aplicaciones
 
 Para este proyecto tuvimos que unir la información de dos proveedores distintos de datos meteorológicos. Aunque ambos hablan de lo mismo, cada uno entrega los datos a su manera, por lo que el reto principal fue dejarlos en un solo formato compatible con la API institucional.
 
-*1. Cómo venían los datos y qué pide la API*
+## 1. Cómo venían los datos y qué pide la API
 
 El Proveedor A envía un archivo JSON bastante anidado. Los datos vienen separados en bloques como `station`, `location` y `measurements`. Además, maneja la temperatura en Fahrenheit y la velocidad del viento en metros por segundo.
 
@@ -16,7 +16,7 @@ El problema es que la API institucional solo acepta una estructura fija: `ciudad
 
 Incluso los nombres cambian según el proveedor. Por ejemplo, lo que para uno es `city_name`, para el otro es `municipality`, pero en el fondo es la misma ciudad. Por eso creamos un integrador que se encarga de traducir y unificar todo antes de enviarlo.
 
-*2. Qué tuvimos que normalizar*
+## 2. Qué tuvimos que normalizar
 
 Para el Proveedor A hicimos el mapeo completo y dos conversiones clave:
 
@@ -30,7 +30,7 @@ Con el Proveedor B el trabajo fue más simple, porque ya venía en las unidades 
 
 Si un registro traía un dato faltante o un valor que no se podía convertir, lo marcamos como error de normalización y no lo enviamos.
 
-*3. Validación antes de enviar*
+## 3. Validación antes de enviar
 
 Antes de hacer el POST, validamos cada registro para no enviar basura a la API. Revisamos lo básico: que ciudad y país no estén vacíos, que la latitud esté entre -90 y 90, la longitud entre -180 y 180, la humedad entre 0 y 100%, que el viento no sea negativo y que la fecha exista.
 
@@ -40,7 +40,7 @@ Gracias a este filtro previo procesamos 400 registros así:
 
 Esto nos ahorró muchos rechazos innecesarios.
 
-*4. Cómo se hizo el envío*
+## 4. Cómo se hizo el envío 
 
 Los 380 registros válidos se enviaron por POST a `/api/v1/mediciones` con los headers `Content-Type: application/json` y `X-Equipo: EQUIPO-22-APPSWEB`.
 
@@ -50,7 +50,7 @@ También previmos que la API a veces responde con un formato inesperado, para qu
 
 Al final, hicimos un GET a `/api/v1/mediciones?equipo=EQUIPO-22-APPSWEB` para confirmar qué quedó realmente guardado.
 
-*5. Qué resultados obtuvimos*
+## 5. Qué resultados obtuvimos
 Concepto	Cantidad
 Procesados	400
 Normalizados	391
