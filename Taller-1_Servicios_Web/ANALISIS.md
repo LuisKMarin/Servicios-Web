@@ -1,3 +1,7 @@
+# Estudiantes  
+- Luis Carlos Marín Mayo  
+- Jorge Andrés Carvajal Sepúlveda  
+
 *Análisis de integración de datos entre aplicaciones*
 
 Para este proyecto tuvimos que unir la información de dos proveedores distintos de datos meteorológicos. Aunque ambos hablan de lo mismo, cada uno entrega los datos a su manera, por lo que el reto principal fue dejarlos en un solo formato compatible con la API institucional.
